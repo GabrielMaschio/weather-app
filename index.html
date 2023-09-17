@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Nome da cidade" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="alert"></div>
+
+        <div class="error-icon">
+            <img src="./img/404.png" alt="">
+            <p>Oops! Localização inválida :(</p>
+        </div>
+        
+        <div class="weather-box">
+            <img src="./img/rain.png" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Santa Fé do Sul</h2>
+        </div>
+
+        <div class="details">
+            <div class="details-humi">
+                <i class="fa-solid fa-water"></i>
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidade</p>
+                </div>
+            </div>
+
+            <div class="details-wind">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p class="wind">15 Km/h</p>
+                    <p>Vento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
